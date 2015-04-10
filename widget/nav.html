@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>导航</title>
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#mytab a").click(function (e) {
+        $(this).tab("show");
+      });
+      $("#mypills a").click(function (e) {
+        $(this).tab("show");
+      });
+      $('#myjpills a').click(function (e) {
+        $(this).tab("show");
+      })
+    });
+  </script>
+</head>
+<body>
+<nav>
+  <!--标签类型-->
+  <ul class="nav nav-tabs" id="mytab" role="tablist">
+    <li role="presentation" class="active"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+  </ul>
+</nav>
+<!--胶囊类型-->
+<nav>
+  <ul class="nav nav-pills" id="mypills" role="tablist">
+    <li role="presentation" class="active"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+  </ul>
+</nav>
+ <!--垂直胶囊-->
+<nav>
+  <ul class="nav nav-pills nav-stacked" id="myvpills" role="tablist">
+    <li role="presentation" class="active"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+  </ul>
+</nav>
+ <!--两端对齐-->
+<nav>
+  <ul class="nav nav-pills nav-justified" id="myjpills" role="tablist">
+    <li role="presentation" class="active"> <a href="#">home</a> </li>
+    <li role="presentation">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        下拉菜单
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li role="presentation" class="item"><a href="#">一</a></li>
+        <li role="presentation" class="item"><a href="#">一</a></li>
+        <li role="presentation" class="item"><a href="#">一</a></li>
+      </ul>
+    </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+    <li role="presentation"> <a href="#">home</a> </li>
+  </ul>
+</nav>
+  <div class="container">
+
+  </div>
+</body>
+</html>

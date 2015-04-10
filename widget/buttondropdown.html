@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>按钮式下拉菜单</title>
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="btn-group">
+      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+        下拉菜单
+        <span class="caret"></span>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">第一</a> </li>
+          <li><a href="#">第二</a> </li>
+          <li><a href="#">第三</a> </li>
+        </ul>
+      </button>
+    </div>
+    <!--分列式下拉菜单-->
+    <div class="btn-group">
+      <button type="button" class="btn btn-info" data-toggle="dropdown">
+        分裂下拉菜单
+        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">第一</a> </li>
+          <li><a href="#">第二</a> </li>
+          <li><a href="#">第三</a> </li>
+        </ul>
+      </button>
+    </div>
+  </div>
+</body>
+</html>

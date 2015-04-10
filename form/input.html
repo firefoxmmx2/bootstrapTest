@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>输入框</title>
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="input-group">
+      <span class="input-group-addon">@</span>
+      <input type="text" class="form-control" placeholder="username">
+      <span class="input-group-addon">.00</span>
+    </div>
+    <div class="input-group input-group-lg">
+      <span class="input-group-addon">@</span>
+      <input type="text" class="form-control" placeholder="username">
+      <span class="input-group-addon">.00</span>
+    </div>
+    <div class="input-group input-group-sm">
+      <span class="input-group-addon">@</span>
+      <input type="text" class="form-control" placeholder="username">
+      <span class="input-group-addon">.00</span>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <input type="checkbox" class="checkbox" value="1" aria-label="..."/>
+          </span>
+          <input type="text" class="form-control" placeholder="username">
+          <span class="input-group-addon">.00</span>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <input type="radio"/>
+          </span>
+          <input type="text" class="form-control"/>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <button type="button" class="btn btn-default">
+              搜索
+            </button>
+          </span>
+          <input type="text" class="form-control" placeholder="请填写搜索内容">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="请填写搜索内容">
+          <span class="input-group-addon">
+            <button type="button" class="btn btn-default">
+              搜索
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          Action<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">一</a> </li>
+          <li><a href="#">二</a> </li>
+          <li><a href="#">三</a> </li>
+          <li><a href="#">四</a> </li>
+          <li><a href="#">五</a> </li>
+        </ul>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+  </div>
+</body>
+</html>
