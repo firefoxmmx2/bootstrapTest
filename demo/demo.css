@@ -1,0 +1,16 @@
+.productslickbg {
+    background-image: url("../image/CABTIxAUQAAP3S8.jpg");
+    height: 500px;
+}
+.myproduct {
+    background-color: gray;
+    height: 400px;
+}
+.myfoot {
+    margin-top: 20px;
+    min-height: 50px;
+}
+.myproductitem {
+    background-color: #245269;
+    height:100%;
+}
