@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="../js/jquery.old.js"></script>
+  <script type="text/javascript" src="combox.js"></script>
+  <!--<script type="text/javascript" src="../js/bootstrap.js"></script>-->
+  <title>下拉筛选框</title>
+  <link href="../css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<!--<div class="dropdown">-->
+  <!--<ul class="dropdown-menu" role="menu">-->
+    <!--<li role="presentation" class="dropdown-header">人员</li>-->
+    <!--<li role="presentation" ><a href="#">小张</a></li>-->
+    <!--<li role="presentation" ><a href="#">小谢</a> </li>-->
+  <!--</ul>-->
+<!--</div>-->
+
+<input type="text" name="queryTextEdit" id="queryTextEdit">
+<script type="text/javascript" >
+//  var queryEdit=documet.getElementById("queryTextEdit")
+//  queryEdit.onpropertychange = function () {
+//    if(this.value && this.value.length > 3 ){
+//      this.class += " "
+//    }
+//  }
+//  $('body').on('propertychange input','#queryTextEdit',function () {
+//    var me=$(this)
+//    if(me.val() && me.val().length > 3) {
+//      me.parent('.dropdown').addClass('open')
+//    }
+//    else
+//      me.parent('.dropdown').removeClass('open')
+//  })
+
+  $('#queryTextEdit').deliveryPersonSelector({
+    action: function (data) {
+      alert(data.deliveryPersonId)
+    }
+  })
+</script>
+</body>
+</html>

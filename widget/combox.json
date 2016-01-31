@@ -1,0 +1,13 @@
+{
+  "resultcode":1,
+  "data":[
+    {"deliveryPersonId":1,"name":"小红","sex":1,"nation":"01","mobilePhoneNumber":"13983323245","idnum":"510212196005134537","ltdCode":"0079"},
+    {"deliveryPersonId":2,"name":"小兰","sex":1,"nation":"01","mobilePhoneNumber":"13983233245","idnum":"510212196005134538","ltdCode":"0079"},
+    {"deliveryPersonId":3,"name":"小黄","sex":1,"nation":"01","mobilePhoneNumber":"13983323245","idnum":"510212196005134539","ltdCode":"0079"},
+    {"deliveryPersonId":4,"name":"小黑","sex":1,"nation":"01","mobilePhoneNumber":"13983239245","idnum":"510212196005134511","ltdCode":"0079"},
+    {"deliveryPersonId":1,"name":"小红","sex":1,"nation":"01","mobilePhoneNumber":"13983323245","idnum":"510212196005134537","ltdCode":"0093"},
+    {"deliveryPersonId":2,"name":"小兰","sex":1,"nation":"01","mobilePhoneNumber":"13983233245","idnum":"510212196005134538","ltdCode":"0093"},
+    {"deliveryPersonId":3,"name":"小黄","sex":1,"nation":"01","mobilePhoneNumber":"13983323245","idnum":"510212196005134539","ltdCode":"0093"},
+    {"deliveryPersonId":4,"name":"小黑","sex":1,"nation":"01","mobilePhoneNumber":"13983239245","idnum":"510212196005134511","ltdCode":"0093"}
+  ]
+}
