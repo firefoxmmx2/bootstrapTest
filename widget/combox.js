@@ -1,8 +1,16 @@
 (function ($) {
 
+    /**
+     * 简单下拉筛选框
+     * @param options
+     * @returns {*}
+     */
     $.fn.simpleCombox = function (options) {
         var settings= $.extend({
-            searchMinLength:3
+            searchMinLength:3, //触发最小搜索的字符
+            url:null,//数据查询地址
+            displayProperty:null,//显示属性
+            action:null //回调处理函数
         },options)
 
         if(!settings.action || typeof settings.action != 'function'){
@@ -10,7 +18,8 @@
         }
         if(!settings.url || typeof settings.url != "string")
             throw "url 必须是一个有效的字符串"
-
+        if(!settings.displayProperty || typeof settings.displayProperty != "string")
+            throw "显示属性displayProperty必须是一个有效的字符串"
         var me =$(this)
         me.parent().append('<div class="dropdown"></div>')
         var dropdownDiv = me.parent().find('div.dropdown:last')
